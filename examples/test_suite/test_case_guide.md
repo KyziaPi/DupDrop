@@ -394,3 +394,19 @@ Keep the ticket in PENDING QA LEAD APPROVAL status.
 ```
 
 This demonstrates that the system supports correction rather than treating its first answer as final.
+
+## 9. What to capture for the documentation
+
+For each test case, capture:
+
+- The raw input.
+- The `PLAN` section.
+- Agent 1’s JSON.
+- The orchestration handoff.
+- Agent 2’s database comparison.
+- Agent 3’s review.
+- The governance check.
+- The approval request.
+- Your approval or revision response.
+- The final result.
+- The pass/fail assessment.
