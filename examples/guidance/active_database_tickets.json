@@ -1,0 +1,402 @@
+[
+  {
+    "ticket_id": "BUG-1001",
+    "subsystem": "Graphics/Rendering",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Severe texture pop-in on Level 2 skyscraper assets during high-speed driving.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "BUG-1002",
+    "subsystem": "Graphics/Rendering",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Player character mesh tearing when equipping the Paladin heavy armor.",
+    "status": "Investigating"
+  },
+  {
+    "ticket_id": "BUG-1003",
+    "subsystem": "Graphics/Rendering",
+    "build_number": "v1.04.54",
+    "crash_signature": null,
+    "summary": "Lighting glitches in the subway tunnel causing a severe strobing effect.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "BUG-1004",
+    "subsystem": "Graphics/Rendering",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Water reflections render completely black on specific AMD GPUs.",
+    "status": "Confirmed"
+  },
+  {
+    "ticket_id": "BUG-1005",
+    "subsystem": "Graphics/Rendering",
+    "build_number": "v1.04.52",
+    "crash_signature": null,
+    "summary": "Persistent screen tearing during Cutscene 4 regardless of V-Sync settings.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "BUG-1006",
+    "subsystem": "Graphics/Rendering",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Bullet hole decals floating 2 inches above the ground in the desert map.",
+    "status": "Investigating"
+  },
+  {
+    "ticket_id": "BUG-1007",
+    "subsystem": "Graphics/Rendering",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Jungle foliage fails to render at medium distances, appearing as green blocks.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "BUG-1008",
+    "subsystem": "Graphics/Rendering",
+    "build_number": "v1.04.54",
+    "crash_signature": null,
+    "summary": "Sun lens flare visual artifact persists on screen even after the sun has set.",
+    "status": "Resolved"
+  },
+  {
+    "ticket_id": "BUG-1009",
+    "subsystem": "Physics/Collision",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Character falling through the floor when exiting the Level 3 elevator shaft.",
+    "status": "Critical"
+  },
+  {
+    "ticket_id": "BUG-1010",
+    "subsystem": "Physics/Collision",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Enemy ragdoll anomalies stretch infinitely across the map when killed by an explosive barrel.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "BUG-1011",
+    "subsystem": "Physics/Collision",
+    "build_number": "v1.04.52",
+    "crash_signature": null,
+    "summary": "Invisible walls block the player from walking down the alleyway in Sector 7.",
+    "status": "Confirmed"
+  },
+  {
+    "ticket_id": "BUG-1012",
+    "subsystem": "Physics/Collision",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Jeep vehicle launches 100 feet into the air upon colliding with a plastic traffic cone.",
+    "status": "Investigating"
+  },
+  {
+    "ticket_id": "BUG-1013",
+    "subsystem": "Physics/Collision",
+    "build_number": "v1.04.54",
+    "crash_signature": null,
+    "summary": "Grenades bounce back incorrectly off broken window frames, killing the player.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "BUG-1014",
+    "subsystem": "Physics/Collision",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Dropped loot items slide through the terrain when discarded on a grassy slope.",
+    "status": "Investigating"
+  },
+  {
+    "ticket_id": "BUG-1015",
+    "subsystem": "Physics/Collision",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Final boss gets stuck infinitely in a walking animation against the throne pillar.",
+    "status": "Confirmed"
+  },
+  {
+    "ticket_id": "BUG-1016",
+    "subsystem": "Physics/Collision",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Player model gets soft-locked inside a supply crate if it closes while looting.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "BUG-1017",
+    "subsystem": "Physics/Collision",
+    "build_number": "v1.04.54",
+    "crash_signature": null,
+    "summary": "Defeated enemy bodies vibrate violently on the ground due to collision overlap.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "BUG-1018",
+    "subsystem": "Audio",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Missing sound effects completely when firing the heavy plasma rifle.",
+    "status": "Confirmed"
+  },
+  {
+    "ticket_id": "BUG-1019",
+    "subsystem": "Audio",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Looping helicopter audio glitches continue playing even after the vehicle is destroyed.",
+    "status": "Investigating"
+  },
+  {
+    "ticket_id": "BUG-1020",
+    "subsystem": "Audio",
+    "build_number": "v1.04.52",
+    "crash_signature": null,
+    "summary": "Severe voice line desync during the primary villain's monologue in Act 2.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "BUG-1021",
+    "subsystem": "Audio",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Footstep sounds are entirely missing when the player walks over metal grate surfaces.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "BUG-1022",
+    "subsystem": "Audio",
+    "build_number": "v1.04.54",
+    "crash_signature": null,
+    "summary": "Ambient city noise stops abruptly after 5 minutes of remaining in the Hub zone.",
+    "status": "Investigating"
+  },
+  {
+    "ticket_id": "BUG-1023",
+    "subsystem": "Audio",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Main menu music track overlaps and plays simultaneously with the loading screen music.",
+    "status": "Confirmed"
+  },
+  {
+    "ticket_id": "BUG-1024",
+    "subsystem": "Audio",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Explosion SFX sound heavily muffled and lack bass when detonated indoors.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "BUG-1025",
+    "subsystem": "Audio",
+    "build_number": "v1.04.52",
+    "crash_signature": null,
+    "summary": "NPC dialogue volume is mixed far too low compared to background environmental SFX.",
+    "status": "Resolved"
+  },
+  {
+    "ticket_id": "BUG-1026",
+    "subsystem": "UI/UX",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Text truncation on the advanced skill tree descriptions for the Russian localization.",
+    "status": "Investigating"
+  },
+  {
+    "ticket_id": "BUG-1027",
+    "subsystem": "UI/UX",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Broken menu navigation; player cannot scroll down the inventory list using a controller D-pad.",
+    "status": "Confirmed"
+  },
+  {
+    "ticket_id": "BUG-1028",
+    "subsystem": "UI/UX",
+    "build_number": "v1.04.54",
+    "crash_signature": null,
+    "summary": "HUD overlap: The circular mini-map completely covers the active quest tracker UI.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "BUG-1029",
+    "subsystem": "UI/UX",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Health bar UI does not visually update immediately after consuming a health potion.",
+    "status": "Investigating"
+  },
+  {
+    "ticket_id": "BUG-1030",
+    "subsystem": "UI/UX",
+    "build_number": "v1.04.52",
+    "crash_signature": null,
+    "summary": "The 'Sort Inventory by Value' button is completely unresponsive when clicked.",
+    "status": "Confirmed"
+  },
+  {
+    "ticket_id": "BUG-1031",
+    "subsystem": "UI/UX",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "White subtitle text color blends into bright skybox backgrounds making it unreadable.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "BUG-1032",
+    "subsystem": "UI/UX",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Controller UI prompts incorrectly display PC keyboard icons during the tutorial.",
+    "status": "Resolved"
+  },
+  {
+    "ticket_id": "BUG-1033",
+    "subsystem": "UI/UX",
+    "build_number": "v1.04.54",
+    "crash_signature": null,
+    "summary": "The pause menu freezes the game for 3 full seconds before rendering the UI.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "BUG-1034",
+    "subsystem": "Networking/Multiplayer",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Severe player position desync when entering the passenger seat of a moving vehicle.",
+    "status": "Critical"
+  },
+  {
+    "ticket_id": "BUG-1035",
+    "subsystem": "Networking/Multiplayer",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Host migration drop causes all remaining clients in the lobby to disconnect to the main menu.",
+    "status": "Confirmed"
+  },
+  {
+    "ticket_id": "BUG-1036",
+    "subsystem": "Networking/Multiplayer",
+    "build_number": "v1.04.54",
+    "crash_signature": null,
+    "summary": "Frequent packet loss disconnects exclusively during maximum capacity 64-player matches.",
+    "status": "Investigating"
+  },
+  {
+    "ticket_id": "BUG-1037",
+    "subsystem": "Networking/Multiplayer",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Hit registration fails completely when shooting at an enemy player with over 150ms ping.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "BUG-1038",
+    "subsystem": "Networking/Multiplayer",
+    "build_number": "v1.04.52",
+    "crash_signature": null,
+    "summary": "In-game voice chat randomly cuts out for party members in the pre-game lobby.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "BUG-1039",
+    "subsystem": "Networking/Multiplayer",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Ranked matchmaking timer loops indefinitely past 10 minutes without finding a server.",
+    "status": "Investigating"
+  },
+  {
+    "ticket_id": "BUG-1040",
+    "subsystem": "Networking/Multiplayer",
+    "build_number": "v1.04.55",
+    "crash_signature": null,
+    "summary": "Party leader cannot send new friend invites after completing a single multiplayer match.",
+    "status": "Confirmed"
+  },
+  {
+    "ticket_id": "BUG-1041",
+    "subsystem": "Networking/Multiplayer",
+    "build_number": "v1.04.54",
+    "crash_signature": null,
+    "summary": "Players occasionally spawn under the map coordinates at the start of a Team Deathmatch.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "BUG-1042",
+    "subsystem": "Engine/Crash",
+    "build_number": "v1.04.55",
+    "crash_signature": "0x88493",
+    "summary": "Explosion physics crash near barrel assets.",
+    "status": "Critical"
+  },
+  {
+    "ticket_id": "BUG-1043",
+    "subsystem": "Engine/Crash",
+    "build_number": "v1.04.55",
+    "crash_signature": "0x992A1",
+    "summary": "Hard crash to desktop/dashboard when attempting to load Save Slot 3.",
+    "status": "Investigating"
+  },
+  {
+    "ticket_id": "BUG-1044",
+    "subsystem": "Engine/Crash",
+    "build_number": "v1.04.54",
+    "crash_signature": "MEM_LEAK_0x04",
+    "summary": "Memory leaks causing the game's frame rate to drop to 10 FPS over 2 hours of continuous play.",
+    "status": "Confirmed"
+  },
+  {
+    "ticket_id": "BUG-1045",
+    "subsystem": "Engine/Crash",
+    "build_number": "v1.04.55",
+    "crash_signature": "SYS_LOCK_0x11",
+    "summary": "System lockups when dynamically changing the display resolution from 1080p to 4K.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "BUG-1046",
+    "subsystem": "Engine/Crash",
+    "build_number": "v1.04.52",
+    "crash_signature": "0x00029",
+    "summary": "Vehicle velocity vector overflows when driving reverse into water body boundary, causing memory corruption crash.",
+    "status": "Resolved"
+  },
+  {
+    "ticket_id": "BUG-1047",
+    "subsystem": "Engine/Crash",
+    "build_number": "v1.04.55",
+    "crash_signature": "OUT_OF_MEM_0x99",
+    "summary": "Out of memory hard crash when rapidly spinning the camera in densely populated city areas.",
+    "status": "Investigating"
+  },
+  {
+    "ticket_id": "BUG-1048",
+    "subsystem": "Engine/Crash",
+    "build_number": "v1.04.55",
+    "crash_signature": "0x88494",
+    "summary": "EXCEPTION_ACCESS_VIOLATION crash triggered during the final boss phase transition cinematic.",
+    "status": "Critical"
+  },
+  {
+    "ticket_id": "BUG-1049",
+    "subsystem": "Engine/Crash",
+    "build_number": "v1.04.54",
+    "crash_signature": "INPUT_ERR_0x01",
+    "summary": "Game crashes instantly when disconnecting the controller during a level load screen.",
+    "status": "Confirmed"
+  },
+  {
+    "ticket_id": "BUG-1050",
+    "subsystem": "Engine/Crash",
+    "build_number": "v1.04.55",
+    "crash_signature": "GPU_FATAL_0x00",
+    "summary": "Engine fatal error crash on game startup for users running outdated NVIDIA GPU drivers.",
+    "status": "Open"
+  }
+]

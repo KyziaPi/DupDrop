@@ -1,0 +1,10 @@
+Tester ID: QA-402
+Platform: Xbox Series X
+Build Number: v2.11.03
+Severity Requested: Blocker
+Issue: Audio completely cuts out and makes a loud screeching noise when I enter the cave behind the waterfall. I had to take my headset off.
+Steps to Repro: 
+1. Go to the waterfall in the starting zone.
+2. Walk through the water into the hidden cave.
+3. Audio breaks.
+Crash Log: None / Not Applicable
