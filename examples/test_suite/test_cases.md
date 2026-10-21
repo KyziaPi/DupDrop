@@ -109,4 +109,4 @@ Crash Log:
 * **Duplicate Status:** EXACT DUPLICATE (>90% Match to active ticket `#BUG-1042`: "Explosion physics crash near barrel assets" based on identical `0x88493` crash signature).
 * **Repro Steps Audit:** PASSED.
 * **Severity Recommendation:** CONFIRMED - Blocker/Critical (Hard crash to dashboard).
-* **Action:** Flag for QA Lead approval to immediately close and merge ticket data into `#BUG-1042`.
+* **Action:** Flag for QA Lead approval to recommend merging this report into `#BUG-1042`.
