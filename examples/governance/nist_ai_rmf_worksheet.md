@@ -26,7 +26,7 @@
 
 | Question | DupDrop answer | Evidence |
 |---|---|---|
-| What policies govern the AI? | Five governance rules (GR-01 to GR-05) cover human approval, no fabrication, explainable duplicates, explained severity, and scope with auditability. | `ai_governance_rules.md` |
+| What policies govern the AI? | Five governance rules (GR-01 to GR-05) cover human approval, no fabrication, explainable duplicates, explained severity, and scope with stage control. | `ai_governance_rules.md` |
 | Who is accountable? | The **QA Lead / Triage Lead** owns every final decision. The Orchestrator enforces the workflow; the agents only recommend. | GR-01 |
 | What is the human's role? | Approve, reject, or request revision at the approval gate before anything is published, merged, closed, or routed. | Human Approval Gates table |
 | How are roles separated? | Each agent has one job and one skill file. Agents do not do each other's work. | GR-05, `SKILL.md` |
@@ -74,7 +74,7 @@
 | **Valid and reliable** | Duplicate bands and severity guidelines are fixed in the skill files; results are checked against expected outputs in test cases. |
 | **Safe** | No automatic destructive actions; a human approval gate stands before OUTPUT (GR-01). |
 | **Secure and resilient** | Report text is treated as data and work stays inside the project context (GR-05). |
-| **Accountable and transparent** | The audit trail records inputs, intermediate results, and the human decision (GR-05). |
+| **Accountable and transparent** | The workflow separates source facts, database evidence, AI recommendations, and human decisions (GR-02, GR-04). |
 | **Explainable and interpretable** | Every duplicate and severity result comes with evidence and reasoning (GR-03, GR-04). |
 | **Privacy-enhanced** | Only internal files and the database are used; no external sharing (GR-05). |
 | **Fair (bias managed)** | The same severity guidelines apply to every report regardless of the tester; tester identity does not change the rating logic. |
@@ -150,7 +150,7 @@ The targets below are proposed for this prototype and can be adjusted by the tea
 1. **Detect:** the Orchestrator's GOVERNANCE CHECK flags a rule violation, or the QA Lead notices an error.
 2. **Contain:** the run stops at the approval request. Nothing is published, merged, closed, or routed.
 3. **Correct:** the QA Lead replies `REQUEST REVISION`; the Orchestrator states which stage (Agent 2 or Agent 3) must rerun.
-4. **Record:** the issue and the human decision are kept in the audit trail (GR-05).
+4. **Record:** the issue and human decision remain visible in the current workflow result.
 5. **Improve:** if the same issue repeats, update the skill file, project instructions, or governance rules.
 
 ### Review and improvement plan

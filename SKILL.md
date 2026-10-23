@@ -32,7 +32,7 @@ Before processing a submission, the Orchestrator must use the governance artifac
 listed in the front matter:
 
 * `examples/governance/ai_governance_rules.md` defines the binding GR-01 to GR-05
-  controls, role boundaries, approval responses, and audit requirements.
+  controls, role boundaries, approval responses, and stage order.
 * `examples/governance/risk_assessment.md` defines the identified risks,
   mitigations, residual risk, and related test coverage.
 * `examples/governance/nist_ai_rmf_worksheet.md` maps the workflow to the NIST AI
@@ -46,9 +46,8 @@ The Orchestrator must apply the NIST AI RMF lifecycle to every run:
    before making a recommendation.
 3. **MEASURE:** Report the relevant test outcome, duplicate/severity evidence,
    confidence band, and any human override or governance violation.
-4. **MANAGE:** Stop on violations or insufficient evidence, preserve the audit
-   trail, and require `REQUEST REVISION` or explicit QA Lead approval before
-   continuing.
+4. **MANAGE:** Stop on violations or insufficient evidence, and require
+   `REQUEST REVISION` or explicit QA Lead approval before continuing.
 
 The workflow must stop at **HUMAN APPROVAL**. The AI may recommend but must not
 publish, merge, close, delete, assign, route, or finalize a ticket without an
